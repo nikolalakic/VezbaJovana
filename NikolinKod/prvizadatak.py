@@ -1,8 +1,18 @@
-def divide_or_square():
-    a = float(input("Uneti broj: "))
-    if a % 5 == 0:
-        print( a ** 0.5)
-    else:
-        print(f"Broj {a} nije deljiv sa 5")
+# def divide_or_square():
+#     a = float(input("Uneti broj: "))
+#     if a % 5 == 0:
+#         print( a ** 0.5)
+#     else:
+#         print(f"Broj {a} nije deljiv sa 5")
 
-divide_or_square()
+# divide_or_square()
+
+# Dodatni zadatak
+
+fruits = {"fruit": "apple", 
+            "color": "green"}
+def longest_value(d):
+    print(max(d.values(), key=len))
+    
+longest_value(fruits)
+

@@ -1,16 +1,14 @@
 register = {'Michael':'yes', 'John': 'no', 'Peter':'yes', 'Mary': 'yes'}
 names = ['kerry', 'dickson', 'John', 'Mary', 'carol', 'Rose', 'adam']
 
-# def register_check(d):
-#     counter = 0 
-#     for key in d:
-#         if d[key] == 'yes':
-#             counter = counter + 1
-#         else:
-#             pass
-#     print('Number of attending students is:', counter)
-
-# register_check(register)
+def register_check(d):
+    counter = 0 
+    for key in d:
+        if d[key] == 'yes':
+            counter = counter + 1
+        else:
+            pass
+    print('Number of attending students is:', counter)
 
 def lowcase(n):
     lowcase_names = []
@@ -22,5 +20,6 @@ def lowcase(n):
     lowcase_names.sort(reverse=True)
     print(lowcase_names)
 
+register_check(register)
 lowcase(names)
 

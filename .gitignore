@@ -159,3 +159,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 50_days_of_Python_A_Challenge_a_Day.pdf
+.vscode/launch.json

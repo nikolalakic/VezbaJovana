@@ -8,7 +8,7 @@
 #
 # print(equal_strings("asd", "Asd"))
 
-niz = [1,5,7,9]
+niz = [2,4,67,7]
 def swap_values(l):
     n = [l[-1]]
     for i in niz[1:-1]:
